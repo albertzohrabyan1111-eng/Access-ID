@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    user-select: none;
+    padding: 0;
+}
+
+.big {
+    /* border: 1px solid; */
+    width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 100vh;
+    background: rgb(219, 209, 192);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.soug-in {
+    width: 450px;
+    padding: 30px;
+    border-radius: 60px;
+    background: rgb(201, 196, 188);
+    height: fit-content;
+    box-shadow:
+        5px 10px 20px rgb(128, 124, 118),
+        -10px -5px 20px rgb(255, 255, 255);
+    text-align: center;
+}
+
+.soug-in h1 {
+    padding-bottom: 20px;
+    font-weight: 900;
+    font-family: "Archivo Black", sans-serif;
+    color: rgb(163, 133, 133);
+}
+
+.boxik {
+    /* border: 1px solid; */
+    display: block;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+
+}
+
+.elem {
+    width: 95%;
+    border: 0;
+    padding: 15px 25px;
+    border-radius: 50px;
+    background: rgb(201, 196, 188);
+    box-shadow:
+        inset 5px 5px 10px rgb(180, 128, 128),
+        inset 5px 5px 25px rgb(255, 255, 255);
+    outline: none;
+    color: rgb(110, 110, 100);
+}
+
+
+.koj {
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    left: 13%;
+    border-radius: 20px;
+    transform: translateY(-50%);
+    font-weight: 900;
+    color: rgb(163, 133, 133);
+}
+
+.soug {
+    border: 0;
+    padding: 10px 60px;
+    border-radius: 60px;
+    background: rgb(201, 196, 188);
+    box-shadow:
+        inset 10px 10px 25px rgb(255, 255, 255),
+        inset 5px 5px 20px rgb(32, 27, 27);
+    transition: all ease 0.5s;
+    font-size: 20px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.soug:hover {
+    box-shadow:
+        inset 5px 5px 20px rgb(255, 255, 255),
+        inset 10px 10px 25px rgb(32, 27, 27);
+    color: rgb(163, 133, 133);
+}
+
+.anim {
+    animation-name: animat;
+    animation-duration: 1s;
+    animation-fill-mode:forwards;
+}
+
+.anim2 {
+    animation-name: animat2;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.mutqSoc-api {
+    margin-left: 5px;
+    border: 0;
+    outline: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    background: rgb(201, 196, 188);
+    box-shadow:
+        inset 10px 10px 25px rgb(255, 255, 255),
+        inset 5px 5px 20px rgb(32, 27, 27);
+    transition: all ease 0.5s;
+    color: rgb(163, 133, 133);
+}
+
+.mutqSoc-api:hover {
+    box-shadow:
+        inset 5px 5px 20px rgb(255, 255, 255),
+        inset 10px 10px 25px rgb(32, 27, 27);
+    color: rgb(143, 122, 122);
+}
+
+.eye {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(163, 133, 133);
+    transition: all ease-in-out 0.5s;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.openeye{
+    display: none;
+}
+
+.eye:hover{
+    color: rgb(255, 255, 255);
+}
+
+.ateg {
+    text-decoration: none;
+}

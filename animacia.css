@@ -1,0 +1,25 @@
+@keyframes animat {
+    from {
+        top: 50%;
+    }
+
+    to {
+        top: 0%;
+        background: rgb(201, 196, 188);
+        border-radius: 25px;
+        padding: 0 20px;
+    }
+}
+
+@keyframes animat2 {
+    from {
+        top: 0%;
+        background: rgb(201, 196, 188);
+        border-radius: 25px;
+        padding: 0 20px;
+    }
+
+    to {
+        top: 50%;
+    }
+}
