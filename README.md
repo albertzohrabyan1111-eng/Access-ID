@@ -1,6 +1,6 @@
 <div align="center">
 
-# <kbd>🔐</kbd> Soug In - Modern Neumorphic Login Page
+# <kbd>🔐</kbd> Sign In - Modern Neumorphic Login Page
 
 </div>
 
